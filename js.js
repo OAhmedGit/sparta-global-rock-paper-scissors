@@ -57,7 +57,7 @@ while(playerPoints < 5 && computerPoints < 5){
     }
 
     function checkPoints(){
-        alert("Your points: " + playerPoints + "\n CPU points: " + computerPoints);
+        alert("Your points: " + playerPoints + "\nCPU points: " + computerPoints);
 
         if(playerPoints == 5 || computerPoints == 5){
             playAgain = prompt("Play again? y / n");
