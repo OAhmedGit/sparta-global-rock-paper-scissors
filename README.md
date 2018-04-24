@@ -1,0 +1,1 @@
+# sparta-global-rock-paper-scissors
