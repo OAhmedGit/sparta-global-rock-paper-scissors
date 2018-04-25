@@ -1,4 +1,4 @@
-var playerChoice = "", computerChoice, playAgain, playerPoints = 0, computerPoints = 0;
+var playerChoice, computerChoice, playAgain, playerPoints = 0, computerPoints = 0;
 
 while(playerPoints < 5 && computerPoints < 5){
 
@@ -60,6 +60,11 @@ while(playerPoints < 5 && computerPoints < 5){
         alert("Your points: " + playerPoints + "\nCPU points: " + computerPoints);
 
         if(playerPoints == 5 || computerPoints == 5){
+            if(playerPoints == 5){
+                alert("YOU WIN!");
+            } else {
+                alert("YOU LOSE!");
+            }
             playAgain = prompt("Play again? y / n");
 
             if(playAgain == "y"){
